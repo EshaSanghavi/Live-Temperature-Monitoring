@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $dbname = "esp_sensor_data";
-$username = "eshie";
-$password = "esh@17";
+$username = "YOUR_USERNAME";
+$password = "YOUR_PASSWORD";
 
 $api_key_value = "abc123";
 
