@@ -4,11 +4,11 @@
 #include <Wire.h>
 
 // Network credentials
-const char* ssid     = "SamE";
-const char* password = "mkuc2919";
+const char* ssid     = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Domain name and URL path
-const char* serverName = "http://192.168.197.189:80/esp_sensor_data/esp_data.php";
+const char* serverName = "http://192.168.xxx.xxx:80/esp_sensor_data/esp_data.php";
 
 String apiKeyValue = "abc123";
 
@@ -70,7 +70,7 @@ void loop() {
     ln = log(RT / RT0);
     TX = (1 / ((ln / B) + (1 / T0)));  //Temperature from thermistor
   
-    TX = TX - 273.15 - 15;             //Conversion to Celsius
+    TX = TX - 273.15;             //Conversion to Celsius
 
     Serial.print(" ");
     Serial.print(VRT);
