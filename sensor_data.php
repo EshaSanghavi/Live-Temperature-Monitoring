@@ -37,8 +37,8 @@
 
         $servername = "localhost";
         $dbname = "esp_sensor_data";
-        $username = "eshie";
-        $password = "esh@17";
+        $username = "YOUR_USERNAME";
+        $password = "YOUR_PASSWORD";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
