@@ -8,9 +8,24 @@ This is an IoT system to diplay real time measured temperatures. It even display
 4. Change your network credentials and server name in esp_sketch.ino.
 5. Store all the php files at /var/www/html/esp_sensor_data for linux or c:\inetpub\wwwroot\esp_sensor_data for windows.
 
+## Hardware setup
+1. Materials required-
+  1. NodeMCU (Esp8266 wifi module)
+  2. NTC 5k thermistor 
+  3. 1 k ohm resistor
+  4. Jumper wires
+  5. Breadboard
+  6. Power supply 
+2. NTC thermistor is used for temperature sensing.
+3. The thermistor and resistor are connected in series forming a voltage divider.
+4. Output of this voltage divider is connected to analog input 0 of the ESP.
+5. The Esp8266 is powered via a usb cable connected to the computer
+6. Uplading the ino code to the NodeMCU-
+  1. Open the ino file in Arduino IDE.
+  2. Connect your NodeMCU to your computer using a usb cable.
+  3. Select board as NodeMCU 0.9 and your posrt, under tool option.
+  4. Verify and upload the sketch to the NodeMCU.
+
 ## Snapshots
 ### Home Page 
-<kbd><img src=""/></kbd>
-
-### Cart
 <kbd><img src=""/></kbd>
