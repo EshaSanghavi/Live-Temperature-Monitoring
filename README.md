@@ -6,7 +6,7 @@ This is an IoT system to diplay real time measured temperatures. It even display
 2. It performs ADC and calculates the temperature in °Celcius. 
 3. Then it sends the data to the php script(esp_data.php) located on the sever via HTTP POST Request. 
 4. The php script inserts a new record in the database and the sensor_data.php displays the data to a webpage. 
-5. A separate php script index.php uses ajax to call sensor_data.php to update the webpage every 10 seconds.
+5. A separate file index.html uses ajax to call sensor_data.php to update the webpage every 10 seconds.
 
 ## Execution
 1. Import the esp_sensor_data.sql file in your database
