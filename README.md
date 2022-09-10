@@ -1,6 +1,9 @@
 # Live-Temperature-Monitoring
 This is an IoT system to diplay real time measured temperatures. It even displays previously recorded temperatures day and month wise. 
 
+## Working
+The NodeMCU is a wifi microcontroller which takes analog input from a NTC thermistor every 10 seconds. It performs ADC and calculates the temperature in °Celcius. Then it send the data to the php script(esp_data.php) on sever via HTTP POST Request. The php script inserts a new record in the database and the sensor_data.php displays the data to a webpage. A separate php script index.php uses ajax to call sensor_data.php to update the webpage every 10 seconds.
+
 ## Execution
 1. Import the esp_sensor_data.sql file in your database
 2. Clone this repository.
