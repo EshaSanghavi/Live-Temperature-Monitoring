@@ -10,12 +10,12 @@ This is an IoT system to diplay real time measured temperatures. It even display
 
 ## Hardware setup
 1. Materials required-
-  1. NodeMCU (Esp8266 wifi module)
-  2. NTC 5k thermistor 
-  3. 1 k ohm resistor
-  4. Jumper wires
-  5. Breadboard
-  6. Power supply 
+              1. NodeMCU (Esp8266 wifi module)
+              2. NTC 5k thermistor 
+              3. 1 k ohm resistor
+              4. Jumper wires
+              5. Breadboard
+              6. Power supply 
 2. NTC thermistor is used for temperature sensing.
 3. The thermistor and resistor are connected in series forming a voltage divider.
 4. Output of this voltage divider is connected to analog input 0 of the ESP.
