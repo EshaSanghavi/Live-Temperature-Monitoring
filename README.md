@@ -1,5 +1,5 @@
 # Live-Temperature-Monitoring
-This is an IoT system to diplay real time measured temperatures. It even displays previously recorded temperatures day and month wise. 
+This is an IoT system to diplay real time measured temperatures. It even displays previously recorded temperatures week and month wise. 
 
 ## Working
 1. The NodeMCU is a wifi microcontroller which takes analog input from a NTC thermistor every 10 seconds. 
