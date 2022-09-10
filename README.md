@@ -13,7 +13,7 @@ This is an IoT system to diplay real time measured temperatures. It even display
 2. Clone this repository.
 3. Change your database credentials in esp_data.php and sensor_data.php
 4. Change your network credentials and server name in esp_sketch.ino.
-5. Store all the php files at /var/www/html/esp_sensor_data for linux or c:\inetpub\wwwroot\esp_sensor_data for windows.
+5. Store all the php and html files at /var/www/html/esp_sensor_data for linux or c:\inetpub\wwwroot\esp_sensor_data for windows.
 
 ## Hardware setup
 1. Materials required-
