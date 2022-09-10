@@ -27,5 +27,8 @@ This is an IoT system to diplay real time measured temperatures. It even display
     4. Verify and upload the sketch to the NodeMCU.
 
 ## Snapshots
-### Home Page 
-<kbd><img src=""/></kbd>
+### Webpage 
+<kbd><img src="https://github.com/EshaSanghavi/Live-Temperature-Monitoring/blob/main/Snapshots/Screenshot%20from%202022-09-10%2000-08-22.png?raw=true"/></kbd>
+
+### Database 
+<kbd><img src="https://github.com/EshaSanghavi/Live-Temperature-Monitoring/blob/main/Snapshots/Screenshot%20from%202022-09-10%2000-08-43.png"/></kbd>
